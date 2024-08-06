@@ -45,16 +45,25 @@ To run this project, follow these steps:
 
 ## Dependencies
 
-List any dependencies or libraries used in the project.
+The following Modules are used in this project:
+- arcgis
+- pandas
+- pandasql
+- os
+- requests
+- IPython
+- plotly
+- ipywidgets
+- dash
 
 ###  Virtual Environment Instructions
 ---
 1. After you have cloned the repo to your machine, navigate to the project 
 folder in GitBash/Terminal.
-1. Create a virtual environment in the project folder. 
-1. Activate the virtual environment.
-1. Install the required packages. 
-1. When you are done working on your repo, deactivate the virtual environment.
+2. Create a virtual environment in the project folder. 
+3. Activate the virtual environment.
+4. Install the required packages. 
+5. When you are done working on your repo, deactivate the virtual environment.
 
 Virtual Environment Commands
 
