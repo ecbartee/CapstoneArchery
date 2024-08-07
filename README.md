@@ -1,5 +1,4 @@
-# CapstoneArchery
-# Data Analysis Project
+# CapstoneArchery - Data Analysis Project
 
 ## Overview
 
@@ -19,9 +18,9 @@ The project is organized as follows:
 
 - **Data Exploration:** Jupyter notebooks or scripts to explore the dataset.
 
-- **Analysis:** Using Python with the  Pandas package to clean the data.
+- **Analysis:** Using Python with the Pandas package to clean the data.
 
-- **Visualizations :** Using Matplotlib and Plotly to visualize my findings. 
+- **Visualizations :** Using Dash and Plotly to visualize my findings. 
 
 
 ## Features Utilized for the project
@@ -29,9 +28,8 @@ The project is organized as follows:
   | Feature        | Description                           |
   |----------------|---------------------------------------|
   | Read TWO data files| Used 3 layers created within ArcGIS online and referenced through dataframes          |
-  | Clean your data and perform a SQL join with your data sets using either plain sql or the pandasql Python library.      | Pulled my data into a data frame, cleaned my data and merged them with a SQL Join to a new dataframe. Added and calculated fields in the new dataframe for facilitating graphic productions |
-  | Make 3 matplotlib or seaborn (or another plotting library) visualizations to display your data. | Made various plots to show off my findings. |
-  | Make a Tableau dashboard      | Made a dashboard with my findings. [Tableau](https://public.tableau.com/app/discover/viz-of-the-day) |
+  | Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.      | Pulled my data into a data frame, cleaned my data and merged them with pandas merge to a new dataframe. Added and calculated fields in the new dataframe for facilitating graphic productions |
+  | Make 3 matplotlib or seaborn (or another plotting library) visualizations to display your data. | Made various plots to display findings. |
   | Best Practices:  Utilize a virtual environment with a requirements file, README file, and pseudocode.      | Created a VENV for the project, populated the README file, used pseudocode and markdown cells to explain the code.  |
 
 
@@ -40,12 +38,14 @@ The project is organized as follows:
 To run this project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/ecbartee/CapstoneArchery.git`
-2. Install the necessary dependencies: `pip install -r requirements.txt`
-3. Explore the Jupyter notebooks or scripts in the respective folders.
+2. Create a virtual environment to install the needed modules to. 
+3. Install the necessary dependencies: `pip install -r requirements.txt` - if this fails review the requirements text file and manually install the required modules if needed.
+4. Explore the ArcheryCapstone.ipynb Jupyter notebook within the Python folder
 
 ## Dependencies
 
 The following Modules are used in this project:
+- ipykernel
 - arcgis
 - pandas
 - pandasql
